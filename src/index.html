@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Hello World!</title>
     <link rel="stylesheet" href="index.css">
+    <script defer src="functions.js"></script>
   </head>
   <body>
     <h1>PortKiller BETA</h1>
-    <form>
-      <input type="text" name="portName" id="">
-      <input type="submit" value="Kill">
+    <form onsubmit="alertMe()">
+      <input type="text" id="portName">
+      <input type="submit" id="portBtn" value="Kill">
     </form>
     <p id="result">Waiting for port</p>
   </body>

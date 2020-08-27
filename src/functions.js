@@ -1,7 +1,7 @@
 function logPortValue() {
     let port = document.getElementById('portName').value
     console.log(port);
-    setResult(false)
+    setResult(true)
     event.preventDefault()
   }
 
